@@ -1,5 +1,10 @@
 # Aesthetix
 
+<p align="center">
+  <img src="assets/screenshot.png" alt="Aesthetix TUI Screenshot" width="800"><br/>
+  <em>Select colors from an image and apply them using plugins</em>
+</p>
+
 **Aesthetix** is a terminal UI (TUI) application for extracting colors from an image and applying them to different UI components (Waybar, Rofi, etc.) using a simple plugin system.
 
 It lets you:
@@ -14,7 +19,7 @@ It lets you:
 ### Clone the repository
 
 ```bash
-git clone https://github.com/yourname/aesthetix.git
+git clone https://github.com/rustypointer/aesthetix.git
 cd aesthetix
 ```
 
