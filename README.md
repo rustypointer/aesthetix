@@ -2,7 +2,6 @@
 
 <p align="center">
   <img src="assets/screenshot.png" alt="Aesthetix TUI Screenshot" width="800"><br/>
-  <em>Select colors from an image and apply them using plugins</em>
 </p>
 
 **Aesthetix** is a terminal UI (TUI) application for extracting colors from an image and applying them to different UI components (Waybar, Rofi, etc.) using a simple plugin system.
@@ -151,9 +150,9 @@ This file maps color roles to their selected hex values.
 
 ## Apply Script
 
-The apply script specified in `manifest.json` receives the generated colors JSON file and should:
+Aesthetix provides the generated `colors.json` file to the apply script specified in `manifest.json`. The apply script should:
 
-- Read `~/.cache/aesthetix/output/colors.json`
+- Read the supplied `colors.json`
 - Extract the required color values
 - Apply them to the target application (Waybar, Rofi, etc.)
 
